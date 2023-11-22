@@ -78,7 +78,8 @@ button:hover {
     color: #fff;
     font-style: italic;
 }
-.textend{
+
+.textend {
     text-align: end;
 }
 
@@ -90,4 +91,10 @@ button:hover {
 ::-webkit-scrollbar-thumb {
     background: pink;
     border-radius: 50px;
+}
+
+@media(max-width: 800px) {
+    .appContainer {
+        width: 90%;
+    }
 }
